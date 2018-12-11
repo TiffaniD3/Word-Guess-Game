@@ -1,21 +1,82 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Word Guess Game</title>
     <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Metal Mania' rel='stylesheet'>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-</head>
-<body>
+        
+        
+        <body>
+            </head>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h3 class="display-3 text-center" class='header'>Mortal Kombat Guess Game</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+          <h4 class="text-center" class="secondary">Press Any Key To Start</h4>
+        </div>
+    </div>
+    
+    <div id="musicControls">
+        <button type="button" class="btn btn-dark btn-md">
+            <ion-icon name="play-circle"></ion-icon>
+        </button>
+        <button type="button" class="btn btn-dark btn-md">
+            <ion-icon name="pause"></ion-icon>
+        </button>
+    </div>
+            <div class="rows 4">
+              <div class="col">
+              <img src="assets/images/default.jpeg" class="rounded float-left" alt="...">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="underscore"></div>
+<div class="rightGuess">right guess</div>
+<div class="wrongGuess">wrong guess</div>
+</div>
+
+<div>
+    <!--scorpion-->
+    <audio id="scorpion">
+        <source src="assets/audio/scorpion1-music.mp3" type="audio/mp3">
+    </audio>
+    <!--raiden-->
+    <audio id="raiden">
+        <source src="assets/audio/raiden1-music.mp3" type="audio/mp3">
+    </audio>
+    <!--kitana-->
+    <audio id="kitana">
+        <source src="assets/audio/kitana1-music.mp3" type="audio/mp3">
+    </audio>
+    <!--tanya-->
+    <audio id="tanya">
+        <source src="assets/audio/tanya-music.mp3" type="audio/mp3">
+    </audio>
+    <!--sub-zero-->
+    <audio id="subzero">
+        <source src="assets/audio/sub-zero-music.mp3" type="audio/mp3">
+    </audio>
+    <!--reptile-->
+    <audio id="reptile">
+        <source src="assets/audio/reptile2-music.mp3" type="audio/mp3">
+    </audio>
+    <!--mileena-->
+    <audio id="mileena">
+        <source src="assets/audio/mileena.mp3" type="audio/mp3">
+    </audio>
+</div>
+<script src="https://unpkg.com/ionicons@4.4.8/dist/ionicons.js"></script>
+<script src="assets/javascript/game.js"></script>
 </body>
-  <div class="container">
-      <header>
-          <h1>Word Guess Game</h1>
-          <h3>Dog Breeds</h3>
-      </header>
-      <div class="underscore">_ _ _ _</div>
-      <div class="rightGuess">right guess</div>
-      <div class="wrongGuess">wrong guess</div>
-  </div>   
-  <script>src="assets/javascript/game.js"</script>
 
 </html>

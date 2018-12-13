@@ -1,5 +1,13 @@
 body {
-    background-image: url(../images/background.png);
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: "Metal Mania";
+}
+
+h1,h3,h4 {
+    background: -webkit-linear-gradient(#FF0000, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
